@@ -11,9 +11,10 @@ from pygame.display import set_mode as set_display_mode
 from pygame.event import get as get_events
 from pygame.time import Clock
 
+from .consts import WINDOW_HEIGHT, WINDOW_WIDTH
 from .game import Game, ShiftDirection
 
-INITIAL_RESOLUTION: Final[tuple[int, int]] = (640, 720)
+INITIAL_RESOLUTION: Final[tuple[int, int]] = (WINDOW_WIDTH, WINDOW_HEIGHT)
 BACKGROUND_COLOUR: Final[tuple[int, int, int]] = (0xFA, 0xF8, 0xEF)
 
 
