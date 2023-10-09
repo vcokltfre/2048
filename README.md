@@ -13,7 +13,7 @@ pdm run start
 
 ## Demo
 
-See [this video](./media/2048.mp4).
+https://github.com/vcokltfre/2048/assets/80592203/eaa475c8-6b49-4acb-b43f-47c5a862212d
 
 ## License
 
