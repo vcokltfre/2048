@@ -1,0 +1,24 @@
+[project]
+name = "2048"
+version = "1.0.0"
+description = "A 2048 game implementation."
+authors = [{ name = "vcokltfre", email = "vcokltfre@gmail.com" }]
+dependencies = [
+    "pygame-ce>=2.3.2",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = { text = "MIT" }
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=23.9.1",
+    "isort>=5.12.0",
+]
+
+[tool.pdm.scripts]
+format = { shell = "python3 -m black . && python3 -m isort --profile black ." }
+start = { shell = "python3 -m src" }
+
+[tool.black]
+line-length = 120
